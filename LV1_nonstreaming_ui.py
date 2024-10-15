@@ -69,7 +69,8 @@ class ChatApp(BaseChatApp):
         )
 
         return AISimpleResponse(
-            bot_message=bot_message,
+            # NOTE: we have to set empty str for Gradio.Textbox after receiving response
+            bot_message="",
             chat_history=chat_history,
             chat_history_for_ml=chat_history_for_ml,
         )
