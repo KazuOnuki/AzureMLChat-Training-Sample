@@ -29,7 +29,7 @@ Before getting started, ensure you have the following:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/azure-ml-chat-training-materials.git
+   git clone https://github.com/KazuOnuki/azureml-chatapi-example.git
    cd azure-ml-chat-training-materials
    ```
 
