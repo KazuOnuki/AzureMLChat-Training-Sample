@@ -1,0 +1,36 @@
+﻿:root {
+  --main-area-height: calc(100vh - 50px); /* Base height */
+}
+
+#chat-info-panel {
+  max-height: 600px;  /* Maximum height */
+  overflow-y: auto;   /* Enable vertical scrolling on overflow */
+  padding: 5px;       /* Padding */
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+#chat-area {
+  max-height: 600px;  /* Maximum height */
+  font-size: 10px;    /* Font size */
+  line-height: 1.5;   /* Line height */
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+  white-space: pre-wrap !important; /* Preserve whitespace */
+}
+
+/* Customize scrollbar */
+::-webkit-scrollbar {
+  background: var(--background-fill-primary);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--border-color-primary);
+  border: 4px solid transparent;
+  border-radius: 100px;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-corner {
+  background: var(--background-fill-primary);
+}
