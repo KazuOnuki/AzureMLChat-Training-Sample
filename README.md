@@ -2,6 +2,8 @@
 
 This project implements a chat interface that interacts with Azure Machine Learning API endpoints using Gradio. It provides three levels of implementation, each with increasing functionality and complexity. This repository is intended **exclusively for external AI training materials**, spanning 1-2 days.
 
+https://github.com/user-attachments/assets/3dd054fe-1b7e-4e91-8c1a-6cac55e1b71b
+
 ## 🌟 Features
 
 - 🤖 Chat interface using Gradio
